@@ -1,7 +1,7 @@
 ![Seneca](http://senecajs.org/files/assets/seneca-logo.png)
-> Seneca Redis transport generator
+> Yeoman Vidi Dashboard generator
 
-# generator-seneca-redis
+# generator-vidi-dashboard
 [![Build Status][travis-badge]][travis-url]
 [![Gitter][gitter-badge]][gitter-url]
 
@@ -12,16 +12,16 @@
 npm install -g yo
 ```
 
-To install generator-seneca-plugin from npm, run:
+To install generator-vidi-dashboard from npm, run:
 
 ```bash
-npm install -g generator-seneca-redis
+npm install -g generator-vidi-dashboard
 ```
 
 Finally, initiate the generator:
 
 ```bash
-yo seneca-redis
+yo vidi-dashboard
 ```
 
 ### Getting To Know Yeoman
