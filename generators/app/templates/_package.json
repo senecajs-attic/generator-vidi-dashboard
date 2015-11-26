@@ -1,0 +1,22 @@
+{
+  "name": "VidiDashboardInstance",
+  "description": "Vidi Dashboard instance",
+  "license": "MIT",
+  "version": "0.0.1",
+  "main": "./index.js",
+  "engines": {
+    "node": "*"
+  },
+  "dependencies": {
+    "vidi-dashboard": "*"
+  },
+  "repository": {
+    "private": true
+  },
+  "scripts": {
+  }
+}
+
+
+
+
