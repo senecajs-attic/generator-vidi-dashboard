@@ -4,7 +4,7 @@
   "description": "Yeoman generator for Vidi Dashboard application",
   "main": "app/index.js",
   "scripts": {
-    "start": "node index.js"
+    "test": "mocha"
   },
   "files": [
     "generators"
