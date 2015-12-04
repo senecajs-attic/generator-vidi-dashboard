@@ -11,6 +11,10 @@ var extend = require('deep-extend')
 module.exports = yeoman.generators.Base.extend({
 
   prompting: function () {
+    if (this.options.name) {
+      this.projectName = this.options.name;
+      return
+    }
     var done = this.async();
 
     this.log(yosay(
