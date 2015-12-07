@@ -42,12 +42,16 @@ module.exports = yeoman.generators.Base.extend({
         this.destinationPath('package.json')
       );
       this.fs.copy(
-        this.templatePath('_index.js'),
-        this.destinationPath('index.js')
+        this.templatePath('_service.js'),
+        this.destinationPath('service.js')
       );
       this.fs.copy(
         this.templatePath('_README.md'),
         this.destinationPath('README.md')
+      );
+      this.fs.copy(
+        this.templatePath('_Dockerfile'),
+        this.destinationPath('Dockerfile')
       );
     },
 
